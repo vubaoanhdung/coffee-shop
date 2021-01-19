@@ -1,0 +1,25 @@
+{
+  "name": "finalProjectWithNewTechs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npx nodemon index.js\" \"npm start --prefix client\" \"npm start --prefix employee\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "stripe": "^8.121.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
